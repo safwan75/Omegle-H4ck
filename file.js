@@ -20,7 +20,7 @@ window.RTCPeerConnection = function (...args) {
   return pc;
 };
 
-let apiKey = '<api_key>'
+let apiKey = 'aeb853eb48f04a8cbb0fceb1bc5d2013'
 let getLocation = async (ip) => {
     let url = `https://api.ipgeolocation.io/ipgeo?apiKey=${apiKey}&ip=${ip}`;
   
